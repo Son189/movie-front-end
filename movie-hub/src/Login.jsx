@@ -34,7 +34,7 @@ const Login = () => {
                         Password: <input type= "text" value={password} onChange={event => setPassword(event.target.value)}/>
                     </label>
                     </p>
-                    <button type="Submit" className="btn btn-warning">Login</button>
+                    <button type="Submit" className="btn btn-info">Login</button>
                 </form>
             ) }
         </div>
