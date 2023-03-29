@@ -29,11 +29,9 @@ const Login = () => {
                     <label className="form-label">
                         Username: <input type= "text" value={username} onChange={event => setUsername(event.target.value)}/>
                     </label>
-                    <p>
                     <label>
                         Password: <input type= "text" value={password} onChange={event => setPassword(event.target.value)}/>
                     </label>
-                    </p>
                     <button type="Submit" className="btn btn-warning">Login</button>
                 </form>
             ) }
